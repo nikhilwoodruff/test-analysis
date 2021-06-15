@@ -2,7 +2,7 @@ name: Submit website PR
 on: [push]
 jobs:
   build:
-    if: github.repository == 'nikhilwoodruff/analysis-template'
+    if: github.repository == 'nikhilwoodruff/test-analysis'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
