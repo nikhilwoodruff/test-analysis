@@ -2,10 +2,10 @@ layout: post
 current: post
 cover: 
 navigation: True
-title: "An interesting post"
+title: "A testing analysis"
 date: 2021-06-15
 tags: []
 subclass: 'post'
 author: nikhil
-excerpt: "Some interesting excerpt."
+excerpt: "The excerpt"
 class: post-template

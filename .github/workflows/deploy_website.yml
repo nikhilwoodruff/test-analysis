@@ -13,7 +13,7 @@ jobs:
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
-          activate-environment: reponame
+          activate-environment: test-analysis
           environment-file: environment.yml
           python-version: 3.9
           auto-activate-base: false
@@ -36,4 +36,4 @@ jobs:
           git push dest ${POST_NAME}
         env:
           GITHUB_TOKEN: ${{secrets.POST_BOT_GH_TOKEN}}
-          POST_NAME: analysis-template
+          POST_NAME: test-analysis
